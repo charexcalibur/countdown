@@ -1,0 +1,15 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.countdown {
+    width: 100%;
+    background-color: rgb(4,23,34);
+    height: 1080px;
+}
+
+.title {
+    color: #ffffff;
+}
