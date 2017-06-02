@@ -12,12 +12,30 @@
 </head>
 <body>
 <section class="countdown">
-	<div class="title">本网站距离倒闭还有</div>
-	<div countdown data-date="Feb 02 2020 20:20:22">
-		<span data-days class="cd-days">0</span><span class="cd-days"> days</span>
-		<span data-hours class="cd-hours">0</span> <span class="cd-hours"> hours</span>
-		<span data-minutes class="cd-minutes">0</span> <span class="cd-minutes"> minutes</span>
-		<span data-seconds class="cd-seconds">0</span> <span class="cd-seconds"> seconds</span>
+	<div class="cd-container">
+		<div class="title">本网站距离倒闭还有</div>
+		<div countdown data-date="Feb 02 2020 20:20:22" class="cd-date">
+			<div id="cd-days">
+				<div>
+					<span data-days class="cd-nums"></span><span class="cd-days"> days</span>
+				</div>
+			</div>
+			<div id="cd-hours">
+				<div>
+					<span data-hours class="cd-nums"></span> <span class="cd-hours"> hours</span>
+				</div>
+			</div>
+			<div id="cd-minutes">
+				<div>
+					<span data-minutes class="cd-nums"></span> <span class="cd-minutes">mins</span>
+				</div>
+			</div>
+			<div id="cd-seconds">
+				<div>
+					<span data-seconds class="cd-nums"></span> <span class="cd-seconds">secs</span>
+				</div>
+			</div>
+		</div>
 	</div>
 </section>
 
